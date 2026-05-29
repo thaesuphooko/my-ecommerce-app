@@ -168,7 +168,7 @@ export default function App() {
       }
       return [...prev, { product, quantity: 1 }];
     });
-    showToast(Added ${product.title} to Cart, 'success');
+    showToast(`Added ${product.title} to Cart, 'success');
   };
 
   const removeFromCart = (productId) => {
